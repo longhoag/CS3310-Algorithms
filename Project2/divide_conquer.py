@@ -60,7 +60,6 @@ def main():
     low, high, max_sum = findMaximumSubarray(A, 0, len(A)-1)
 
     # Print the maximum subarray (from A[low] to A[high]) as comma-separated values.
-    # Example output: "4,-1,2,1"
     print(','.join(map(str, A[low:high+1])))
 
 if __name__ == "__main__":

@@ -3,7 +3,6 @@ import sys
 
 def main():
     # Read a single line of input from stdin, which is a list of integers separated by commas
-    # Example input: -2,1,-3,4,-1,2,1,-5,4
     line = sys.stdin.readline().strip()
     A = list(map(int, line.split(',')))
     
